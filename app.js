@@ -6,7 +6,7 @@
 var http = require('http');
 http.createServer(function (request, response) {
   homeRoute(request, response);
-}).listen(3000);
+}).listen(3000); //Do I need to add my own IP?
 console.log('Server running at http://<workspace-url>/');
 
 //2. Handel HTTP route GET / and POST / i.e. Home
@@ -16,8 +16,6 @@ function homeRoute(request, response){
   if(request.url === "/") {
     //show search
     response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.write("Header\n");
-    response.write("Search\n");
     response.end("Footer\n");
   }
   //if url == "/" && POST
