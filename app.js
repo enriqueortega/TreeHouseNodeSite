@@ -13,11 +13,7 @@ console.log('Server running at http://<workspace-url>/');
 
 function homeRoute(request, response){
   //if url == "/" && GET
-  if(request.url === "/") {
-    //show search
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.end("Footer\n");
-  }
+
   //if url == "/" && POST
     //redirect to /:username
 }
