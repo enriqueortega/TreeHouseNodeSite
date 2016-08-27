@@ -13,7 +13,7 @@ console.log('Server running at http://<workspace-url>/');
 
 function homeRoute(request, response){
   //if url == "/" && GET
-
+  console.log("weeeee");
   //if url == "/" && POST
     //redirect to /:username
 }
