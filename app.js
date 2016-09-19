@@ -1,4 +1,4 @@
-//Problem: We need a simple way to look at a user's badge count and JavaScript point from a web browser
+a//Problem: We need a simple way to look at a user's badge count and JavaScript point from a web browser
 //Solution: Use Node.js to perform the profile look ups and serve our template via HTTP
 
 //1. Create a web server
@@ -13,7 +13,7 @@ console.log('Server running at http://<workspace-url>/');
 
 function homeRoute(request, response){
   //if url == "/" && GET
-  console.log("weee3eeeeeeeeeesdfguifyurrreeeeeeeeee still reading stuff");
+  console.log("weee3eeeeeeeeeesdfgaaauifyurrreeeeeeeeee still reading stuff");
   //if url == "/" && POST
     //redirect to /:username
 }
